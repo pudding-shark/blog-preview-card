@@ -41,9 +41,15 @@ body {
     display: flex;
     align-items: center;
     font-size: 0.75rem;
-    margin-bottom: -10px;
+    margin-bottom: 5px;
+    max-width: 7rem;
+    max-height: 1rem;
 }
 
+.profile:hover {
+    color:var(--yellow);
+    cursor:pointer
+}
 .profile img {
     width:1.5rem;
     text-align: center;
@@ -63,9 +69,20 @@ img {
     text-align: center;
     max-width: 4rem;
     font-size: 0.7rem;
-    padding:0.2rem;
+    padding:0.3rem;
     border-radius: 5px;
     margin-bottom: 10px;
+    border:0;
+    cursor:pointer
+}
+
+.tag:hover {
+    outline: solid 1px;
+   
+}
+
+.tag:active {
+    color:var(--white)
 }
 
 .small-weight {
@@ -81,10 +98,16 @@ h1 {
     margin-bottom: 10px;
 }
 
+h1:hover {
+    color:var(--yellow);
+    cursor:pointer
+}
+
 .desc {
     font-size: 0.8rem;
     color:var(--gray-500);
-    line-height:1.2rem
+    line-height:1.2rem;
+    margin-bottom: 1rem;
 }
 
 .date {
